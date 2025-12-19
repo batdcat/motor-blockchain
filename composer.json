@@ -1,23 +1,34 @@
 {
     "name": "batdcat/motor-blockchain",
-    "description": "Motor de cadena de bloques (Blockchain) agnóstico y ligero en PHP. Soporta Prueba de Trabajo (PoW).",
+    "description": "Motor blockchain ligero y modular diseñado para garantizar la integridad de datos en el ecosistema TimeFinanceHub y SyntaxSanctuary.",
     "type": "library",
     "license": "MIT",
+    "keywords": [
+        "blockchain",
+        "php",
+        "timefinancehub",
+        "immutable-ledger",
+        "data-integrity"
+    ],
+    "homepage": "https://github.com/batdcat/motor-blockchain",
+    "support": {
+        "issues": "https://github.com/batdcat/motor-blockchain/issues",
+        "source": "https://github.com/batdcat/motor-blockchain"
+    },
     "authors": [
         {
             "name": "Ramiro Garcia Gonzalez",
             "email": "rgg@batdcat.com",
-            "homepage": "https://batdcat.com",
             "role": "Lead Developer"
         }
     ],
+    "require": {
+        "php": "^8.0"
+    },
     "autoload": {
         "psr-4": {
             "Batdcat\\Blockchain\\": "src/"
         }
-    },
-    "require": {
-        "php": "^8.0"
     },
     "minimum-stability": "stable"
 }

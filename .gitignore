@@ -1,4 +1,28 @@
-/vendor
+# --- Dependencias PHP ---
+/vendor/
 composer.lock
+# (Deja composer.lock si trabajas en equipo para fijar versiones, ignóralo si es librería pura a veces)
+
+# --- Archivos de Entorno y Secretos (¡CRÍTICO!) ---
 .env
+config.php
+auth.json
+
+# --- Sistema Operativo (Linux/Windows/Mac) ---
 .DS_Store
+Thumbs.db
+*~
+*.swp
+
+# --- IDE (VS Code) ---
+.vscode/
+*.code-workspace
+
+# --- Logs y Errores ---
+error_log
+*.log
+/logs/
+
+# --- Build / Dist ---
+/build/
+/dist/
