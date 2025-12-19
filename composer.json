@@ -1,0 +1,23 @@
+{
+    "name": "batdcat/motor-blockchain",
+    "description": "Motor de cadena de bloques (Blockchain) agnóstico y ligero en PHP. Soporta Prueba de Trabajo (PoW).",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ramiro Garcia Gonzalez",
+            "email": "rgg@batdcat.com",
+            "homepage": "https://batdcat.com",
+            "role": "Lead Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Batdcat\\Blockchain\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "minimum-stability": "stable"
+}
